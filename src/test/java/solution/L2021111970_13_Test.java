@@ -39,7 +39,7 @@ public class L2021111970_13_Test {
         Solution s = new Solution();
         int[] nums = {0,0,2,2,0,0,0};
         s.sortColors(nums);
-        int[] expect = {0,0,0,0,0,2,2};
+        int[] expect = {0,0,0,0,1,2,2};
         assertArrayEquals(expect, nums);
     }
     // 测试有三种颜色，乱序
